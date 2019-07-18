@@ -1,0 +1,10 @@
+D:\Projects\C#\WebCompilator\WebCompilator\bin\Debug\WebCompilator.exe.config
+D:\Projects\C#\WebCompilator\WebCompilator\bin\Debug\WebCompilator.exe
+D:\Projects\C#\WebCompilator\WebCompilator\bin\Debug\WebCompilator.pdb
+D:\Projects\C#\WebCompilator\WebCompilator\obj\Debug\WebCompilator.csprojAssemblyReference.cache
+D:\Projects\C#\WebCompilator\WebCompilator\obj\Debug\WebCompilator.csproj.CoreCompileInputs.cache
+D:\Projects\C#\WebCompilator\WebCompilator\obj\Debug\WebCompilator.exe
+D:\Projects\C#\WebCompilator\WebCompilator\obj\Debug\WebCompilator.pdb
+D:\Projects\C#\WebCompilator\WebCompilator\bin\Debug\websocket-sharp.dll
+D:\Projects\C#\WebCompilator\WebCompilator\bin\Debug\websocket-sharp.xml
+D:\Projects\C#\WebCompilator\WebCompilator\obj\Debug\WebCompilator.csproj.CopyComplete
