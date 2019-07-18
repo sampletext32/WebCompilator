@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 45%;
+    display: block;
+    margin: 20 auto;
+}
+
+.container.grey {
+    min-height: 120px;
+    background: #ededed;
+}
+
+.clear {
+    clear: both;
+}
+
+.line_counter_container {
+    float: left;
+    width: 5%;
+    height: 60%;
+    background: #e2dede;
+}
+
+.line_counter_container span {
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    display: block;
+    line-height: 20px;
+    color: #8e8e8e;
+}
+
+#input_code {
+    width: calc(95% - 5px);
+    height: 20px;
+    float: right;
+    background: #ededed;
+    border: none;
+    line-height: 20px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 5px;
+    resize: none;
+    word-wrap: auto;
+    font-family: monospace;
+}
+
+
+#run_code
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #8791b5;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#run_code:active
+{
+    background: #717890;
+    transform: translateY(-1px);
+}
+
+
+#run_code:hover {
+    cursor: pointer;
+    background: #707dad;
+}
+
+
+
+
+
+
+
+#console_input {
+    width: 95%;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+    float: right;
+    outline: none;
+    color: #212121;
+}
+
+
+
+#console_input:focus::placeholder {
+    opacity: 0;
+}
+
+.command_direction {
+    float: left;
+    width: 5%;
+    height: 20px;
+}
+
+.command_direction .cd {
+    font-size: 15px;
+    color: #5773d8;
+    line-height: 20px;
+}
+
+.command_direction .cd.solid {
+    font-weight: bold;
+
+}
+
+
+.code_kwrd {
+    color: blue;
+}
+
+.code_comm {
+    color: green;
+}
+
+.code_str {
+    color: orange;
+}
+
+.code_func {
+    color: #2ba92b;
+}
+
+
+.modal_help {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    background: #c7c7c7;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.3);
+}
+
+.modal_help .element {
+    min-width: 40px;
+    display: block;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    color: white;
+}
+
+.modal_help .element:last-child
+{
+    border: none;
+}
+
+.modal_help .element:hover {
+    cursor: pointer;
+    background: #bbbdc7;
+}
+
+.command
+{
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.command.in b {
+    color: #151515;
+    padding-right: 10px;
+}
+
+.command.in
+{
+    color: #151515;
+}
+
+.command.out b {
+    color: #adadad;
+    padding-right: 10px;
+}
+
+.command.out
+{
+    color: #adadad;
+}

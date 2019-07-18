@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="jquery.js"></script>
+        <script src="autosize.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <!-- TIP -->
+        <div class="modal_help">
+            <span class="element" id="elem_1"></span>
+            <span class="element" id="elem_2"></span>
+            <span class="element" id="elem_3"></span>
+        </div>
+        <!-- TITLE -->
+        <div class="container">
+            <h2>Write your code here</h2>
+        </div>
+        <!-- CODE EDITOR -->
+        <div class="container grey">
+            <div class="line_counter_container">
+                <span class="line" id="line_1">1</span>
+            </div><div contenteditable="true" id="input_code" onkeyup="updateCounter()" onkeydown="processInput(event)" onfocusout="highLight()"></div>
+            <div class="clear"></div>
+        </div>
+        <!-- BUTTON -->
+        <div class="container">
+            <button id="run_code" onclick="runCode($('#input_code').text());">Run code</button>
+        </div>
+        <!-- CONSOLE INPUT -->
+        <div class="container">
+            <div class="command_direction"><span class="cd solid">></span></div>
+            <input type="text" id="console_input" onkeypress="terminal.updateKeys(event)" placeholder="_">
+            <div class="clear"></div>
+        </div>
+        <!-- CONSOLE OUTPUT -->
+        <div class="container" id="terminal">
+        </div>
+    </body>
+</html>
